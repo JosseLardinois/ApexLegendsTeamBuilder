@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexLegendsTeamBuilder", "ApexLegendsTeamBuilder.csproj", "{3E9D7926-6B8E-4A15-80FA-97A2CA1B1C1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9D7926-6B8E-4A15-80FA-97A2CA1B1C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9D7926-6B8E-4A15-80FA-97A2CA1B1C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9D7926-6B8E-4A15-80FA-97A2CA1B1C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9D7926-6B8E-4A15-80FA-97A2CA1B1C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86D25581-B9E5-4FFF-812A-FDC38F9748BA}
+	EndGlobalSection
+EndGlobal
