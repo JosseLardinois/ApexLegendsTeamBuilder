@@ -23,6 +23,11 @@ namespace ApexLegendsTeamBuilder.Controllers
         {
             return View();
         }
+        public IActionResult ApexLegendsTeamBuilder()
+        {
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {

@@ -1,8 +1,24 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    //Database connecten aan onderstaande checkboxes
+    //ApexApi verwerken
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Apex Team Picker</h1>
+    <h3>Pick what kind of team you would like!</h3>
 </div>
+
+<form action="/action_page.php">
+    <input type="checkbox" id="OffensiveTeam" name="OffensiveTeam" value="OffensiveTeam">
+    <label for="OffensiveTeam">Offensive Team</label><br>
+    <input type="checkbox" id="BalancedTeam" name="BalancedTeam" value="BalancedTeam">
+    <label for="BalancedTeam">Balanced Team</label><br>
+    <input type="checkbox" id="ReconTeam" name="ReconTeam" value="ReconTeam">
+    <label for="ReconTeam"> Recon Team</label><br><br>
+    <input type="checkbox" id="DefensiveTeam" name="DefensiveTeam" value="DefensiveTeam">
+    <label for="DefensiveTeam"> Defensive Team</label><br><br>
+    <input type="checkbox" id="RandomTeam" name="RandomTeam" value="RandomTeam">
+    <label for="RandomTeam"> RandomTeam</label><br><br>
+    <input type="submit" value="Submit">
+</form>
