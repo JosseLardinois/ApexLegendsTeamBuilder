@@ -6,6 +6,7 @@ using ApexLegendsTeamBuilder.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,7 +29,7 @@ namespace ApexLegendsTeamBuilder
             services.AddRazorPages();
 
 
-            services.AddDbContext<LegendsContext>();
+            services.AddDbContext<LegendsContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LegendsDatabase")));//Connection klopt nog niet
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

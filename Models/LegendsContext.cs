@@ -10,7 +10,7 @@ namespace ApexLegendsTeamBuilder.Models
     {
         public LegendsContext(DbContextOptions<LegendsContext>options):base(options)
         {
-
         }
+        public DbSet<ApexLegend> ApexLegends { get; set; }
     }
 }
